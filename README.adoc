@@ -17,6 +17,12 @@ image:https://img.shields.io/github/v/tag/nanomsg/mangos?logo=github&sort=semver
 // image:https://goreportcard.com/badge/nanomsg.org/go/mangos/v2?style=flat[Go Report Card,link="https://goreportcard.com/report/nanomsg.org/go/mangos/v2"]
 
 
+WARNING: This is a frozen repository, used to serve up the legacy v2 import path at nanomsg.org/go/mangos/v2.
+It should *not* be used except by old code still reliant on v2 import paths.  All new code should use
+the import path "go.nanomsg.org/mangos/v3".  The main github.com/nanomsg/mangos repo is still current.
+
+IMPORTANT: We strongly recommend users consider upgrading to go modules, and the new import path.
+
 [cols="2",grid="none",frame="none",options="autowidth"]
 |===
 |_Mangos&trade;_ v2  is an implementation in pure Go of the *SP*
