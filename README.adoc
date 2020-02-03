@@ -5,18 +5,6 @@ ifdef::env-github[]
 endif::[]
 = mangos v2
 
-image:https://img.shields.io/github/workflow/status/nanomsg/mangos/linux?logoColor=grey&logo=ubuntu&label=[Linux Status,link="https://github.com/nanomsg/mangos/actions"]
-image:https://img.shields.io/github/workflow/status/nanomsg/mangos/windows?logoColor=grey&logo=windows&label=[Windows Status,link="https://github.com/nanomsg/mangos/actions"]
-image:https://img.shields.io/github/workflow/status/nanomsg/mangos/darwin?logoColor=grey&logo=apple&label=[Darwin Status,link="https://github.com/nanomsg/mangos/actions"]
-image:https://img.shields.io/codecov/c/github/nanomsg/mangos?logoColor=grey&logo=codecov&label=[Coverage,link="https://codecov.io/gh/nanomsg/mangos"]
-image:https://img.shields.io/codacy/grade/0addd1f6c00e4251b37854f3499e6d76?logoColor=grey&logo=codacy&label=[Code Quality,link="https://app.codacy.com/manual/gdamore/mangos/dashboard"]
-image:https://img.shields.io/discord/639573728212156478?label=&logo=discord[Discord,link="https://discord.gg/wewTkby"]
-image:https://img.shields.io/badge/godoc-docs-blue.svg?label=&logo=go[GoDoc,link="https://godoc.org/nanomsg.org/go/mangos/v2"]
-image:https://img.shields.io/github/license/nanomsg/mangos.svg?logoColor=silver&logo=Open Source Initiative&label=&color=blue[Apache 2.0 License,link="https://github.com/nanomsg/mangos/blob/master/LICENSE"]
-image:https://img.shields.io/github/v/tag/nanomsg/mangos?logo=github&sort=semver&label=[Latest version,link="https://github.com/nanomsg/mangos/releases"]
-// image:https://goreportcard.com/badge/nanomsg.org/go/mangos/v2?style=flat[Go Report Card,link="https://goreportcard.com/report/nanomsg.org/go/mangos/v2"]
-
-
 WARNING: This is a frozen repository, used to serve up the legacy v2 import path at nanomsg.org/go/mangos/v2.
 It should *not* be used except by old code still reliant on v2 import paths.  All new code should use
 the import path "go.nanomsg.org/mangos/v3".  The main github.com/nanomsg/mangos repo is still current.
